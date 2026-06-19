@@ -1,7 +1,8 @@
 
 import 'package:flutter/material.dart';
-import '../models/product.dart';
-import '../services/api_service.dart';
+import 'package:shop_app/models/product.dart';
+import 'package:shop_app/services/api_service.dart';
+
 
 class ProductProvider extends ChangeNotifier {
   List<Product> _allProducts = [];

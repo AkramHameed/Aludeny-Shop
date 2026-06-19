@@ -1,10 +1,11 @@
 import 'dart:convert';
+
 import 'package:http/http.dart' as http;
 import 'package:shop_app/models/product.dart';
 
 class ApiService {
   static const String baseUrl =
-      //'https://6a2312c25c610353286ab169.mockapi.io/api/alghanmiproducts/products';
+      
       'https://dummyjson.com/products';
 
   static Future<List<Product>> fetchProducts() async {
